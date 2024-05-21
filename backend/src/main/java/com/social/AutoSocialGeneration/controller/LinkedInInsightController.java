@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/linkedin")
-@CrossOrigin
+@CrossOrigin(origins = "https://auto-social-generation.vercel.app")
 public class LinkedInInsightController {
 
     private final LinkedInInsightService linkedInInsightService;
