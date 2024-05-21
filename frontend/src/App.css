@@ -1,0 +1,6 @@
+@import "@fontsource/poppins"; /* Import the Poppins font */
+
+/* Apply the font globally */
+body {
+  font-family: 'Poppins', sans-serif;
+}
