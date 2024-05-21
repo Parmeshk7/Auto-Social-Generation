@@ -6,6 +6,11 @@ Auto Socials Generation is a web application designed to help businesses working
 ## Implementation
 The project is implemented using Java Spring Boot for the backend and React.js for the frontend. It utilizes Google Custom Search API to search for LinkedIn pages by appending the domain name with "LinkedIn" and sending it as a search query. The results are filtered to find LinkedIn company pages. Jsoup is used to scrape the LinkedIn page and extract the required data using CSS selectors. The data is then stored in a database, with the capability to update existing entries.
 
+## Key Technologies
+-  Backend: Java Spring Boot
+-  Frontend: React JS + Tailwind CSS
+-  Database: SQL
+
 ## Prerequisites
 - Java JDK 17 or later
 - Node.js and npm
