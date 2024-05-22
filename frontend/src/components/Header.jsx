@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 
 const Header = () => {
   return (
-    <header className="py-3 px-8 md:py-4 md:px-10 fixed w-screen border-b shadow bg-white flex items-center justify-between">
+    <header className="py-3 px-4 md:py-4 md:px-10 fixed w-screen border-b shadow bg-white flex items-center justify-between">
       <div>
         <a href="/" className="flex items-center">
             <img src={logo} width={45} />
